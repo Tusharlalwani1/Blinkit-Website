@@ -1,0 +1,104 @@
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+  header {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 10px;
+    gap: 15px;
+  }
+  .headerleft {
+    justify-content: center;
+  }
+  .logo {
+    padding: 10px;
+  }
+  .headeraddress {
+    padding: 10px;
+  }
+  .headeraddress p {
+    font-size: 12px;
+  }
+  .headeraddress h3 {
+    font-size: 15px;
+  }
+  .searchbox button {
+    padding: 10px;
+  }
+  .headerbtn {
+    position: fixed;
+    width: 100%;
+    margin-right: 0px;
+    background-color: white;
+    justify-content: center;
+    bottom: 0px;
+  }
+
+  .bannerSection {
+    display: none;
+  }
+  .orderBanner {
+    padding: 10px;
+    flex-direction: column;
+  }
+  .categoryItems {
+    flex-basis: 25%;
+  }
+
+  .ProductSection {
+    padding: 30px 10px;
+  }
+  .ProductItems {
+    flex-basis: 49%;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 calc(50% - 1%);
+    max-width: calc(50% - 1%);
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .ProductItems h3 {
+    min-height: 38px;
+    font-size: 14px;
+    line-height: 1.2;
+  }
+  .ProductRow {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+  }
+  .Btn-price-outer {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+  .Btn-price-outer b {
+    font-size: 14px;
+  }
+  .Btn-price-outer button {
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+
+  footer {
+    padding-top: 0px;
+  }
+  .footerMid-row1 {
+    padding: 10px;
+    flex-direction: column;
+  }
+  .FooterLinks__List li {
+    flex-basis: 48%;
+  }
+  .footerMid-row3 {
+    padding: 0px 10px;
+  }
+  .footerMid-row2 {
+    gap: 20px;
+    flex-direction: column;
+  }
+}
